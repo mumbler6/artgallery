@@ -1,1 +1,1 @@
-# artgallery
+A React project utilizing the Art Institute of Chicago's open source API for accessing the museum's public artwork data with different filters.

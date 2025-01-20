@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 70px;
+    border-bottom : 1px solid lightgray;
+}
+
+.navbar-left img {
+    width: 128px;
+    height: 128px;
+}
+
+.navbar-content {
+    margin-top: 4%;
+    margin-left: 3%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar-content p {
+    font-size: 2.05em;
+}
+
+.navbar-right {
+    display:flex;
+    margin-right: 30px;
+}
+
+.nav-button {
+    margin-left: 60px;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color .4s ease;
+}
+
+.nav-button:visited {
+    color:inherit;
+}
+
+.nav-button:hover {
+    text-decoration: underline solid currentColor;
+    text-decoration-thickness: 1px;
+}
+
+.nav-button.active {
+    color: #b50938;
+}
